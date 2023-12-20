@@ -8,6 +8,7 @@ router.get('/user',getUser);
 router.post('/login',loginUser);   
 router.get('/profile',isAuthorized,profile);
 router.put('/edit',editUser);
+router.post('/favorite',getFavorite); 
 
 
 module.exports = router;
